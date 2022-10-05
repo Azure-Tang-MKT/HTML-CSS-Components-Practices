@@ -1,0 +1,119 @@
+/* .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid .col {
+  background-color: pink;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+/* Aligning tracks inside container: distribute empty space */
+/* justify-content is horizontally & align is vertically
+
+align-content: center;
+justify-content: center;
+align-items: center;
+justify-items: center; */
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+}
+
+.container {
+  border-style: solid;
+  border-color: #000;
+  border-width: 5px;
+}
+
+.price,
+.product-details {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.red {
+  background-color: red;
+  height: 15px;
+  width: 15px;
+}
+.yellow {
+  background-color: yellow;
+  height: 15px;
+  width: 15px;
+}
+.blue {
+  background-color: blue;
+  height: 15px;
+  width: 15px;
+}
+.green {
+  background-color: green;
+  height: 15px;
+  width: 15px;
+}
+.purple {
+  background-color: purple;
+  height: 15px;
+  width: 15px;
+}
+
+.delivery {
+  color: grey;
+}
+
+.promo-text {
+  font: 300px;
+  margin-bottom: 15px;
+}
+
+.colour {
+  margin-top: 15px;
+}
+
+.button {
+  background-color: #000;
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+}
+
+/* flexbox */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.colour {
+  display: flex;
+  gap: 15px;
+}
+
+.ad-image {
+  height: 250;
+  padding-right: 40px;
+}
+
+.price-info {
+  flex-basis: 30%;
+  flex: 1;
+}
+
+.price-delivery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-list li {
+  margin-bottom: 10px;
+}
+
+.third-column {
+  flex: 1;
+}
